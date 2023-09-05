@@ -1,1 +1,4 @@
-# tomo nostr nip05
+# tomo identity
+
+- did.json (did:web)
+- nostr nip05
