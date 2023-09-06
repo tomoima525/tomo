@@ -1,3 +1,28 @@
 {
-  "id": "did:web:tomoima525.github.io"
+    "@context": "https://www.w3.org/ns/did/v1",
+    "id": "did:web:tomoima525.github.io",
+    "verificationMethod": [
+        {
+            "id": "did:web:tomoima525.github.io",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:tomoima525.github.io#owner",
+            "publicKeyJwk": {
+                "kty": "OKP",
+                "crv": "Ed25519",
+                "x": "RVZIHkDoe7COQGoffUnUExsCVIo6IIwG9jwWgnGCm5Y",
+                "alg": "EdDSA",
+                "kid": "did:web:tomoima525.github.io#owner"
+            }
+        }
+    ],
+    "authentication": [
+        [
+            "did:web:tomoima525.github.io#owner"
+        ]
+    ],
+    "assertionMethod": [
+        [
+            "did:web:tomoima525.github.io#owner"
+        ]
+    ]
 }
